@@ -1,0 +1,45 @@
+body{
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1{
+	font-size: 32px;
+	font-family: Palatino, 'Palatino Linotype', serif;
+	color: blue;
+}
+
+
+.background{
+	background-image: url("https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i86150a51964976d0/version/1490283314/most-beautiful-landscapes-in-europe-copyright-vicky-sp-european-best-destinations.jpg");
+	background-size: cover;
+	font-size: 60px;
+	font-family: 'Helvetica', sans-serif;
+	color: black;
+	padding: 300px;
+	margin: 40px;
+	text-shadow:
+	  -1px -1px 0 #000,
+	   1px -1px 0 #000,
+	  -1px  1px 0 #000,
+	  -1px -1px 0 #000;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url("http://cdn6.whiskeyriff.com/wp-content/uploads/montego-bay.jpg");
+  background-size: cover;
+}
+
+.background:hover .overlay {
+	opacity: 1;
+}
